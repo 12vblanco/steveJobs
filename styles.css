@@ -41,6 +41,12 @@ body {
   margin-top: 10px;
 }
 
+@media (max-width: 640px) {
+  body {
+    margin-top: 0;
+  }
+}
+
 /* card styles */
 .card {
   height: 670px;
