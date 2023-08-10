@@ -1,0 +1,213 @@
+@font-face {
+  font-family: "Source Sans Pro Black";
+  src: url("assets/fonts/SourceSansPro-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans Pro Regular";
+  src: url("assets/fonts/SourceSansPro-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* colours */
+  --white: #ffffff;
+  --grey: #0000001a;
+  --purple: #462681;
+
+  /* Approx font sizes */
+  --font-44pt: 44px;
+  --font-14pt: 14px;
+  --font-25pt: 25px;
+  --font-18pt: 18px;
+  --font-24pt: 24px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* card styles */
+.card {
+  height: 670px;
+  min-height: 667px;
+  width: 375px;
+  background: var(--white);
+}
+
+/* image and navigation */
+.steve-img {
+  width: 375px;
+  height: 270px;
+}
+
+.header-nav {
+  position: absolute;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: var(--font-18pt);
+  font-family: "Source Sans Pro Regular", sans-serif;
+  opacity: 0.8;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: var(--white);
+  line-height: 1;
+}
+
+.nav-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.4rem;
+  margin-top: -0.1rem;
+  height: auto;
+}
+
+/* card body */
+.card-content {
+  position: absolute;
+  background: var(--white);
+  padding: 1rem 1.2rem;
+  top: 227px;
+  width: 375px;
+  height: 450px;
+  border-radius: 40px 40px 0px 0px;
+  border: 1px solid var(--grey);
+}
+
+/* name section */
+.name-section {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.3rem;
+}
+
+.name-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  font-family: "Source Sans Pro Black", sans-serif;
+  font-size: var(--font-44pt);
+  color: var(--purple);
+}
+
+.more-icon {
+  padding-top: 0.7rem;
+}
+
+.follow-container {
+  font-family: "Source Sans Pro Black", sans-serif;
+  font-size: var(--font-14pt);
+  margin-bottom: 1.4rem;
+}
+
+.follow-container a {
+  text-decoration: none;
+  color: var(--purple);
+  line-height: 1;
+  letter-spacing: 0.2px;
+}
+
+.follow-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.1rem;
+  margin-left: 0.1rem;
+  margin-top: -0.2rem;
+  height: auto;
+}
+
+/* stats section */
+.stats-section {
+  font-family: "Source Sans Pro Black", sans-serif;
+  color: var(--purple);
+  border-top: 1px solid var(--purple);
+  border-bottom: 1px solid var(--purple);
+  margin: 20px auto;
+  padding: 0.6rem 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats-section_stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat-number {
+  font-size: var(--font-24pt);
+  line-height: 1;
+  letter-spacing: 1px;
+}
+.stat-text {
+  font-size: var(--font-14pt);
+  letter-spacing: 0.2px;
+}
+
+/* categories */
+.categories-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 247px;
+  padding: 0 0.3rem;
+}
+
+.category-header {
+  font-family: "Source Sans Pro Black", sans-serif;
+  font-size: var(--font-14pt);
+  color: var(--purple);
+  letter-spacing: 0.2px;
+  height: 35px;
+}
+
+.category {
+  font-family: "Source Sans Pro Regular", sans-serif;
+  letter-spacing: 0.2px;
+  font-size: var(--font-25pt);
+  color: var(--purple);
+  border-bottom: 1px solid var(--purple);
+  padding: 0.6rem 0;
+  width: 100%;
+  height: 73px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category-icon {
+  background-image: url("assets/icons/arrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 32px;
+}
