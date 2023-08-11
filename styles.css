@@ -23,7 +23,6 @@
   --font-44pt: 44px;
   --font-14pt: 14px;
   --font-25pt: 25px;
-  --font-18pt: 18px;
   --font-24pt: 24px;
 }
 
@@ -47,6 +46,20 @@ body {
   }
 }
 
+.name,
+.follow-container,
+.stats-section_stat,
+.category-header,
+.category {
+  font-family: "Source Sans Pro Black", sans-serif;
+  color: var(--purple);
+}
+
+.header-nav,
+.category {
+  font-family: "Source Sans Pro Regular", sans-serif;
+}
+
 /* card styles */
 .card {
   height: 670px;
@@ -67,7 +80,6 @@ body {
   display: flex;
   align-items: center;
   font-size: var(--font-18pt);
-  font-family: "Source Sans Pro Regular", sans-serif;
   opacity: 0.8;
 }
 
@@ -115,17 +127,15 @@ body {
 }
 
 .name {
-  font-family: "Source Sans Pro Black", sans-serif;
+  font-weight: 700;
   font-size: var(--font-44pt);
-  color: var(--purple);
 }
 
 .more-icon {
-  padding-top: 0.7rem;
+  padding-top: 0.8rem;
 }
 
 .follow-container {
-  font-family: "Source Sans Pro Black", sans-serif;
   font-size: var(--font-14pt);
   margin-bottom: 1.4rem;
 }
@@ -148,8 +158,6 @@ body {
 
 /* stats section */
 .stats-section {
-  font-family: "Source Sans Pro Black", sans-serif;
-  color: var(--purple);
   border-top: 1px solid var(--purple);
   border-bottom: 1px solid var(--purple);
   margin: 20px auto;
@@ -164,6 +172,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: var(--purple);
 }
 
 .stat-number {
@@ -179,12 +188,11 @@ body {
 /* categories */
 .categories-section {
   width: 100%;
-  height: auto;
+  height: 247px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  height: 247px;
   padding: 0 0.3rem;
 }
 
@@ -193,18 +201,14 @@ body {
 }
 
 .category-header {
-  font-family: "Source Sans Pro Black", sans-serif;
   font-size: var(--font-14pt);
-  color: var(--purple);
   letter-spacing: 0.2px;
   height: 35px;
 }
 
 .category {
-  font-family: "Source Sans Pro Regular", sans-serif;
   letter-spacing: 0.2px;
   font-size: var(--font-25pt);
-  color: var(--purple);
   border-bottom: 1px solid var(--purple);
   padding: 0.6rem 0;
   width: 100%;
