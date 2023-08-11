@@ -8,7 +8,7 @@
 @font-face {
   font-family: "Source Sans Pro Regular";
   src: url("assets/fonts/SourceSansPro-Regular.otf") format("opentype");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
@@ -127,7 +127,6 @@ body {
 }
 
 .name {
-  font-weight: 700;
   font-size: var(--font-44pt);
 }
 
