@@ -188,6 +188,10 @@ body {
   padding: 0 0.3rem;
 }
 
+.categories-section ul {
+  width: 100%;
+}
+
 .category-header {
   font-family: "Source Sans Pro Black", sans-serif;
   font-size: var(--font-14pt);
