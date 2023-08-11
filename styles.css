@@ -101,7 +101,7 @@ body {
 .card-content {
   position: absolute;
   background: var(--white);
-  padding: 1rem 1.2rem;
+  padding: 1rem 1.36rem;
   top: 227px;
   width: 375px;
   height: 450px;
@@ -132,7 +132,7 @@ body {
 }
 
 .more-icon {
-  padding-top: 0.8rem;
+  padding-top: 0.72rem;
 }
 
 .follow-container {
@@ -161,7 +161,7 @@ body {
   border-top: 1px solid var(--purple);
   border-bottom: 1px solid var(--purple);
   margin: 20px auto;
-  padding: 0.6rem 1.5rem;
+  padding: 0.6rem 1.2rem 0.6rem 1.8rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -178,11 +178,12 @@ body {
 .stat-number {
   font-size: var(--font-24pt);
   line-height: 1;
-  letter-spacing: 1px;
 }
 .stat-text {
   font-size: var(--font-14pt);
-  letter-spacing: 0.2px;
+}
+.f {
+  margin-left: 6px;
 }
 
 /* categories */
